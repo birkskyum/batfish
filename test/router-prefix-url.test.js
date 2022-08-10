@@ -1,6 +1,5 @@
 'use strict';
 
-// eslint-disable-next-line node/no-missing-require
 const prefixUrl = require('@mapbox/batfish/modules/prefix-url').prefixUrl;
 
 jest.mock(
