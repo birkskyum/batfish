@@ -107,7 +107,7 @@
     "@mapbox/scroll-restorer": "^1.0.0",
     "address": "^1.1.2",
     "assets-webpack-plugin": "^5.1.2",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^9.8.8",
     "babel-loader": "^8.2.2",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "browser-sync": "^2.26.14",
