@@ -49,6 +49,7 @@ function createBabelConfig(
 
   const plugins = [
     require.resolve('@babel/plugin-syntax-dynamic-import'),
+    require.resolve('@babel/plugin-syntax-import-assertions'),
     require.resolve('@babel/plugin-proposal-class-properties'),
     require.resolve('@babel/plugin-proposal-object-rest-spread'),
     [
