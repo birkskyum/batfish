@@ -145,7 +145,7 @@
     "postcss": "^7.0.31",
     "postcss-csso": "^4.0.0",
     "postcss-url": "^8.0.0",
-    "pretty-error": "^2.1.2",
+    "pretty-error": "^4.0.0",
     "pretty-ms": "^7.0.1",
     "prop-types": "^15.7.2",
     "resolve-from": "^5.0.0",
