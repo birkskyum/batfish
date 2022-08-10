@@ -1,10 +1,8 @@
-'use strict';
-
-const del = require('del');
-const path = require('path');
-const mkdirp = require('mkdirp');
-const tempy = require('tempy');
-const writePageModule = require('../src/node/write-page-module');
+import del from 'del';
+import path from 'path';
+import mkdirp from 'mkdirp';
+import tempy from 'tempy';
+import writePageModule from '../src/node/write-page-module';
 
 describe('writePageModule', () => {
   let tmp;

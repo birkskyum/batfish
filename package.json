@@ -12,6 +12,7 @@
     "modules",
     "dist"
   ],
+  "type": "module",
   "scripts": {
     "lint-js": "eslint .",
     "format": "prettier --write '**/*.js'",
@@ -197,9 +198,5 @@
     "remark-preset-davidtheclark": "^0.12.0",
     "rimraf": "^3.0.2",
     "strip-ansi": "^6.0.0"
-  },
-  "engines": {
-    "node": ">=10",
-    "npm": ">=6"
   }
 }

@@ -1,15 +1,15 @@
 'use strict';
 
-const _ = require('lodash');
-const del = require('del');
-const pify = require('pify');
-const fs = require('fs');
-const mkdirp = require('mkdirp');
-const tempy = require('tempy');
-const writeContextModule = require('../src/node/write-context-module');
-const writePageModule = require('../src/node/write-page-module');
-const writeDataModules = require('../src/node/write-data-modules');
-const getPagesData = require('../src/node/get-pages-data');
+import _ from 'lodash';
+import del from 'del';
+import pify from 'pify';
+import fs from 'fs';
+import mkdirp from 'mkdirp';
+import tempy from 'tempy';
+import writeContextModule from '../src/node/write-context-module';
+import writePageModule from '../src/node/write-page-module';
+import writeDataModules from '../src/node/write-data-modules';
+import getPagesData from '../src/node/get-pages-data';
 
 jest.mock('../src/node/write-page-module', () => {
   return jest.fn((config, pageData) =>

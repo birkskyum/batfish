@@ -1,10 +1,8 @@
-'use strict';
-
-const del = require('del');
-const path = require('path');
-const mkdirp = require('mkdirp');
-const tempy = require('tempy');
-const writeDataModules = require('../src/node/write-data-modules');
+import del from 'del';
+import path from 'path';
+import mkdirp from 'mkdirp';
+import tempy from 'tempy';
+import writeDataModules from '../src/node/write-data-modules';
 
 describe('writeDataModules', () => {
   let tmp;
