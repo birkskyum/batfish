@@ -7,6 +7,6 @@ _batfish_tmp
 **/package-lock.json
 coverage
 modules
-dist
+# dist
 flow-coverage
 examples/**/.babelrc
