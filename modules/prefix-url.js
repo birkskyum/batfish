@@ -3,9 +3,9 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.isUrlPrefixed = isUrlPrefixed;
 exports.prefixUrl = prefixUrl;
 exports.prefixUrlAbsolute = prefixUrlAbsolute;
-exports.isUrlPrefixed = isUrlPrefixed;
 // This weirdness, combined with the _configure function below, exists because
 // we don't want a public module to import 'batfish-internal/context' directly.
 // That will make any files that use it incapable of executing outside of

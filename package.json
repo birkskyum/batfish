@@ -65,9 +65,9 @@
       "@babel/preset-react"
     ],
     "plugins": [
-      "@babel/plugin-syntax-import-assertions",
       "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-transform-flow-strip-types"
+      "@babel/plugin-transform-flow-strip-types",
+      "@babel/plugin-syntax-import-assertions"
     ]
   },
   "jest": {
