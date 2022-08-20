@@ -162,11 +162,6 @@
     "webpack-merge": "^4.2.2",
     "worker-farm": "^1.7.0"
   },
-  "peerDependencies": {
-    "react": "^15.5.0 || ^16.0.0",
-    "react-dom": "^15.5.0 || ^16.0.0",
-    "react-helmet": "^6.0.0"
-  },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/plugin-transform-flow-strip-types": "^7.18.9",
