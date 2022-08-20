@@ -66,8 +66,7 @@
     ],
     "plugins": [
       "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-transform-flow-strip-types",
-      "@babel/plugin-syntax-import-assertions"
+      "@babel/plugin-transform-flow-strip-types"
     ]
   },
   "jest": {
