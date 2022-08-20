@@ -2,9 +2,10 @@
 
 const findMatchingRoute = require('../src/webpack/find-matching-route')
   .findMatchingRoute;
-
+/* eslint-disable node/no-missing-require */
 // This gets the mock value defined below.
 const batfishContext = require('batfish-internal/context').batfishContext;
+/* eslint-enable node/no-missing-require */
 
 jest.mock(
   'batfish-internal/context',

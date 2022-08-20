@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-
+/* eslint-disable node/no-missing-require */
 'use strict';
 
 const React = require('react');

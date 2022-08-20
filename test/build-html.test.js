@@ -85,6 +85,7 @@ describe('buildHtml', () => {
   });
 
   test('runs the compiled static-render-pages.js', () => {
+    // eslint-disable-next-line node/no-missing-require
     const mockStaticRenderPages = require('/mock/output/assets/static-render-pages.js')
       .default;
     return buildHtml(batfishConfig, 'mock-stylesheet.css').then(() => {
@@ -127,6 +128,7 @@ describe('buildHtml', () => {
   });
 
   test('if there are no stylesheets, no cssUrl argument is passed to staticRenderPages', () => {
+    // eslint-disable-next-line node/no-missing-require
     const mockStaticRenderPages = require('/mock/output/assets/static-render-pages.js')
       .default;
     batfishConfig.stylesheets = [];
@@ -137,7 +139,7 @@ describe('buildHtml', () => {
 
   test('catches errors parsing compiled static-render-pages.js', () => {
     const expectedError = new Error();
-
+    // eslint-disable-next-line node/no-missing-require
     const mockStaticRenderPages = require('/mock/output/assets/static-render-pages.js')
       .default;
     mockStaticRenderPages.mockImplementation(() => {
@@ -156,7 +158,7 @@ describe('buildHtml', () => {
 
   test('catches errors executing compiled static-render-pages.js', () => {
     const expectedError = new Error();
-
+    // eslint-disable-next-line node/no-missing-require
     const mockStaticRenderPages = require('/mock/output/assets/static-render-pages.js')
       .default;
     mockStaticRenderPages.mockImplementation(() =>
