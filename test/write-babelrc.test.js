@@ -1,9 +1,11 @@
-import fs from 'fs';
-import path from 'path';
-import mkdirp from 'mkdirp';
-import writeBabelrc from '../src/node/write-babelrc';
-import validateConfig from '../src/node/validate-config';
-import createBabelConfig from '../src/node/create-babel-config';
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+const mkdirp = require('mkdirp');
+const writeBabelrc = require('../src/node/write-babelrc');
+const validateConfig = require('../src/node/validate-config');
+const createBabelConfig = require('../src/node/create-babel-config');
 
 jest.mock('fs', () => ({
   writeFileSync: jest.fn()

@@ -1,6 +1,8 @@
-import webpack from 'webpack';
-import webpackCompilePromise from '../src/node/webpack-compile-promise';
-import errorTypes from '../src/node/error-types';
+'use strict';
+
+const webpack = require('webpack');
+const webpackCompilePromise = require('../src/node/webpack-compile-promise');
+const errorTypes = require('../src/node/error-types');
 
 jest.mock('webpack', () => {
   const compiler = {
