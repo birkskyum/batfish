@@ -118,7 +118,7 @@
     "connect-history-api-fallback": "^1.6.0",
     "core-js": "^3.11.0",
     "cpy": "^8.1.2",
-    "del": "^5.1.0",
+    "del": "^7.0.0",
     "del-cli": "^3.0.1",
     "es6-promise": "^4.2.8",
     "fasterror": "^1.1.0",
