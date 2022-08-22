@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { prefixUrl } from '@mapbox/batfish/modules/prefix-url';
+import { prefixUrl } from '@birkskyum/batfish/modules/prefix-url';
 import { withLocation } from './public/with-location';
 
 class DefaultNotFound extends React.Component {

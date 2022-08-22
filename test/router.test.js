@@ -8,7 +8,7 @@ const React = require('react');
 const shallow = require('enzyme').shallow;
 const mount = require('enzyme').mount;
 const Router = require('../src/webpack/router').Router;
-const routeTo = require('@mapbox/batfish/modules/route-to').routeTo;
+const routeTo = require('@birkskyum/batfish/modules/route-to').routeTo;
 const scrollRestorer = require('@mapbox/scroll-restorer');
 const linkHijacker = require('@mapbox/link-hijacker');
 const linkToLocation = require('@mapbox/link-to-location');
@@ -18,7 +18,7 @@ const findMatchingRoute = require('../src/webpack/find-matching-route')
   .findMatchingRoute;
 
 jest.mock(
-  '@mapbox/batfish/modules/route-to',
+  '@birkskyum/batfish/modules/route-to',
   () => {
     const routeTo = jest.fn();
     routeTo._setRouteToHandler = jest.fn();
@@ -28,7 +28,7 @@ jest.mock(
 );
 
 jest.mock(
-  '@mapbox/batfish/modules/prefix-url',
+  '@birkskyum/batfish/modules/prefix-url',
   () => {
     const prefixUrl = jest.fn();
     prefixUrl._configure = jest.fn();

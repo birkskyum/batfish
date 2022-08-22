@@ -4,7 +4,7 @@ description: The home page of my miscellany.
 ---*/
 
 import React from 'react';
-import { prefixUrl } from '@mapbox/batfish/modules/prefix-url';
+import { prefixUrl } from '@birkskyum/batfish/modules/prefix-url';
 import PageShell from '../components/page-shell';
 
 export default class Home extends React.Component {

@@ -30,10 +30,10 @@ function createWebpackConfigBase(
     );
     const prependJs = jsxtremeMarkdownOptions.prependJs || [];
     prependJs.push(
-      `import { prefixUrl, prefixUrlAbsolute } from '@mapbox/batfish/modules/prefix-url';`
+      `import { prefixUrl, prefixUrlAbsolute } from '@birkskyum/batfish/modules/prefix-url';`
     );
     prependJs.push(
-      `import { routeTo, routeToPrefixed } from '@mapbox/batfish/modules/route-to';`
+      `import { routeTo, routeToPrefixed } from '@birkskyum/batfish/modules/route-to';`
     );
     jsxtremeMarkdownOptions.prependJs = prependJs;
     if (jsxtremeMarkdownOptions.headings === undefined) {
@@ -88,13 +88,13 @@ function createWebpackConfigBase(
     aliases['batfish-internal/context'] = batfishContextPath;
     aliases['batfish-internal/application-wrapper'] =
       batfishConfig.applicationWrapperPath;
-    aliases['@mapbox/batfish/data'] = path.join(
+    aliases['@birkskyum/batfish/data'] = path.join(
       batfishConfig.temporaryDirectory,
       constants.DATA_DIRECTORY
     );
     if (isExample) {
       // Not necessary for dependents, but necessary for examples
-      aliases['@mapbox/batfish/modules'] = path.join(
+      aliases['@birkskyum/batfish/modules'] = path.join(
         __dirname,
         '../webpack/public'
       );

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import { prefixUrl } from '@mapbox/batfish/modules/prefix-url';
+import { prefixUrl } from '@birkskyum/batfish/modules/prefix-url';
 
 export default class PageShell extends React.Component {
   render() {

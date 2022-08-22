@@ -79,7 +79,7 @@ Array [
   Array [
     "./../node_modules/@mapbox/babel-plugin-transform-jsxtreme-markdown/index.js",
     Object {
-      "packageName": "@mapbox/batfish/modules/md",
+      "packageName": "@birkskyum/batfish/modules/md",
       "rehypePlugins": Array [
         "rehype-plugin-a",
         "rehype-plugin-b",
@@ -138,7 +138,7 @@ Array [
   Array [
     "./../node_modules/@mapbox/babel-plugin-transform-jsxtreme-markdown/index.js",
     Object {
-      "packageName": "@mapbox/batfish/modules/md",
+      "packageName": "@birkskyum/batfish/modules/md",
       "rehypePlugins": undefined,
       "remarkPlugins": undefined,
     },

@@ -36,7 +36,7 @@ Store data in JSON or JS, anywhere in your project, then specify which data to i
 [`dataSelectors`] also have access to build-time data, like the front matter of all the pages being compiled.
 
 Each data selector creates a module that can be `import`ed to inject the return value into a component or page.
-**The return value of each data selector is the default export of the module available at `@mapbox/batfish/data/[selector-name-kebab-cased]`.**
+**The return value of each data selector is the default export of the module available at `@birkskyum/batfish/data/[selector-name-kebab-cased]`.**
 
 Example:
 
@@ -61,8 +61,8 @@ module.exports = () => {
 // Page
 import React from 'react';
 import { DessertDisplay } from 'path/to/dessert-display';
-import posts from '@mapbox/batfish/data/posts';
-import fancyDesserts from '@mapbox/batfish/data/fancy-desserts';
+import posts from '@birkskyum/batfish/data/posts';
+import fancyDesserts from '@birkskyum/batfish/data/fancy-desserts';
 
 export default class MyPage extends React.PureComponent {
   render() {
@@ -222,13 +222,13 @@ module.exports = () => {
 You can use [jsxtreme-markdown](https://github.com/mapbox/jsxtreme-markdown) within JS, as well as in `.md` page files.
 It is compiled by Babel, so your browser bundle will not need to include a Markdown parser!
 
-Batfish exposes [babel-plugin-transform-jsxtreme-markdown] as `@mapbox/batfish/modules/md`.
+Batfish exposes [babel-plugin-transform-jsxtreme-markdown] as `@birkskyum/batfish/modules/md`.
 The value of this (fake) module is a [template literal tag](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_template_literals).
 Any template literal with this tag will be compiled as Markdown (jsxtreme-markdown, with interpolated JS expression and JSX elements) at compile time.
 
 ```js
 const React = require('react');
-const md = require('@mapbox/batfish/modules/md');
+const md = require('@birkskyum/batfish/modules/md');
 
 class MyPage extends React.Component {
   render() {

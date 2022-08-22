@@ -1,8 +1,8 @@
 # A miscellany exemplifying miscellaneous features
 
 - Uses the [`dataSelectors`] configuration property to create navigation and indexes.
-- Uses `@mapbox/batfish/modules/md` to compile jsxtreme-markdown at build time within React components.
-- Configuration includes a [`siteBasePath`], so `@mapbox/batfish/modules/prefix-url` is used to appropriately prefix URLs for links.
+- Uses `@birkskyum/batfish/modules/md` to compile jsxtreme-markdown at build time within React components.
+- Configuration includes a [`siteBasePath`], so `@birkskyum/batfish/modules/prefix-url` is used to appropriately prefix URLs for links.
 - Includes Facebook `<meta>` tags in its generic page shell.
 - Uses the [`siteOrigin`] configuration property so a `sitemap.xml` file is generated.
 - Uses [jsxtreme-markdown-loader's `getWrapper` option](https://github.com/mapbox/jsxtreme-markdown/tree/master/packages/jsxtreme-markdown-loader#getwrapper) to determine the Markdown page wrapper component based on its path.

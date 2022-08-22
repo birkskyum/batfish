@@ -13,7 +13,7 @@ const errorTypes = require('./error-types');
 
 // Write the return value of each data selector to a module in the data
 // subdirectory of the temporary directory. This directory is aliased by Webpack
-// so these modules can be imported from `@mapbox/batfish/data/*`.
+// so these modules can be imported from `@birkskyum/batfish/data/*`.
 //
 // Return Promise resolves with an array of filenames for the data modules that
 // were written.

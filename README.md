@@ -1,7 +1,5 @@
 # Batfish
 
-[![Build Status](https://travis-ci.com/mapbox/batfish.svg?branch=main)](https://travis-ci.com/mapbox/batfish)
-
 A static-site generator powered by React and Webpack.
 
 ![](./batfish-dark.png)
@@ -83,7 +81,7 @@ Besides installing this package, you'll want to do a few things:
   Batfish generates files and puts them in `_batfish_site` and `_batfish_tmp`.
 
 ```
-npm install --save @mapbox/batfish
+npm install --save @birkskyum/batfish
 ```
 
 **You should not install the Batfish CLI globally.**
@@ -107,7 +105,7 @@ Then run `npm run start`, `npm run build`, and `npm run serve-static`, as needed
 
 - Install Batfish and its peer dependencies.
   ```
-  npm install --save @mapbox/batfish react react-dom react-helmet
+  npm install --save @birkskyum/batfish react react-dom react-helmet
   ```
 
 - Create 3 new `script`s in your `package.json`:
@@ -320,8 +318,8 @@ List lines of `import` or `require` statements that define variables you can use
 
 By default, the following lines are always specified:
 
-- `import prefixUrl from '@mapbox/batfish/modules/prefix-url'`: See [Prefixing URLs].
-- `import routeTo from '@mapbox/batfish/modules/route-to')`: See docs for the [`route-to`] module.
+- `import prefixUrl from '@birkskyum/batfish/modules/prefix-url'`: See [Prefixing URLs].
+- `import routeTo from '@birkskyum/batfish/modules/route-to')`: See docs for the [`route-to`] module.
 
 This means that those functions can be used with no additional configuration.
 Import your own modules and do more things.

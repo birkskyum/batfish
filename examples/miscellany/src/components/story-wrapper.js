@@ -1,5 +1,5 @@
 import React from 'react';
-import storiesData from '@mapbox/batfish/data/stories-data';
+import storiesData from '@birkskyum/batfish/data/stories-data';
 import PageShell from './page-shell';
 import SidebarNavigation from './sidebar-navigation';
 import getLegibleDate from '../utilities/get-legible-date';

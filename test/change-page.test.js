@@ -6,9 +6,9 @@ const findMatchingRouteModule = require('../src/webpack/find-matching-route');
 const scrollToFragment = require('../src/webpack/scroll-to-fragment')
   .scrollToFragment;
 /* eslint-disable node/no-missing-require */
-const _invokeRouteChangeStartCallbacks = require('@mapbox/batfish/modules/route-change-listeners')
+const _invokeRouteChangeStartCallbacks = require('@birkskyum/batfish/modules/route-change-listeners')
   ._invokeRouteChangeStartCallbacks;
-const _invokeRouteChangeEndCallbacks = require('@mapbox/batfish/modules/route-change-listeners')
+const _invokeRouteChangeEndCallbacks = require('@birkskyum/batfish/modules/route-change-listeners')
   ._invokeRouteChangeEndCallbacks;
 /* eslint-enable node/no-missing-require */
 const getWindowModule = require('../src/webpack/get-window');
@@ -44,7 +44,7 @@ jest.mock('../src/webpack/find-matching-route', () => {
 });
 
 jest.mock(
-  '@mapbox/batfish/modules/route-change-listeners',
+  '@birkskyum/batfish/modules/route-change-listeners',
   () => {
     return {
       _invokeRouteChangeStartCallbacks: jest.fn(() => Promise.resolve()),

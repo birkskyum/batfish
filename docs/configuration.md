@@ -191,7 +191,7 @@ The object received as an argument contains the following properties:
   - `frontMatter`: Parsed front matter from the page's file.
 
 The return values of `dataSelectors` *must be stringifiable as JSON*.
-These values can be used in your components pages by `import`ing modules from `@mapbox/batfish/data/*`.
+These values can be used in your components pages by `import`ing modules from `@birkskyum/batfish/data/*`.
 See ["Injecting data"].
 
 ### vendorModules
@@ -309,7 +309,7 @@ That will prevent any version incompatibilities.
 Here, for example, is how you could use the `DefinePlugin` in your `batfish.config.js`:
 
 ```js
-const batfish = require('@mapbox/batfish');
+const batfish = require('@birkskyum/batfish');
 
 module.exports = () => {
   return {
