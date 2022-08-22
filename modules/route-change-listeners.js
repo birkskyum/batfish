@@ -3,13 +3,13 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports._invokeRouteChangeEndCallbacks = _invokeRouteChangeEndCallbacks;
-exports._invokeRouteChangeStartCallbacks = _invokeRouteChangeStartCallbacks;
-exports.addRouteChangeEndListener = addRouteChangeEndListener;
-exports.addRouteChangeStartListener = addRouteChangeStartListener;
 exports.invokeCallbacks = invokeCallbacks;
-exports.removeRouteChangeEndListener = removeRouteChangeEndListener;
+exports.addRouteChangeStartListener = addRouteChangeStartListener;
 exports.removeRouteChangeStartListener = removeRouteChangeStartListener;
+exports.addRouteChangeEndListener = addRouteChangeEndListener;
+exports.removeRouteChangeEndListener = removeRouteChangeEndListener;
+exports._invokeRouteChangeStartCallbacks = _invokeRouteChangeStartCallbacks;
+exports._invokeRouteChangeEndCallbacks = _invokeRouteChangeEndCallbacks;
 
 var _prefixUrl = require("./prefix-url");
 
