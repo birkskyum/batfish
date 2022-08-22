@@ -105,7 +105,7 @@
 
 - **Feature:** Added a helpful message if the provided port is not available.
 - **Feature:** Files reference as URLs in CSS then copied into the output directory (via postcss-url) now include the file's original basename as well as the hash.
-- **Feature:** Expose Batfish's version of Webpack on `require('@mapbox/batfish').webpack`, so it can be used for custom plugin configuration.
+- **Feature:** Expose Batfish's version of Webpack on `require('@birkskyum/batfish').webpack`, so it can be used for custom plugin configuration.
 - **Fix:** Prevent batfish from entering an unpredictable state if provided port is unavailable.
 
 ## 1.8.2
@@ -327,8 +327,8 @@
 ## 0.9.0
 
 - 🚨 **Breaking change:** Revised `dataSelectors` system.
-  Values returned by `dataSelectors` can now be used by `import`ing modules from `@mapbox/batfish/data/[data-selector-name]`, instead of using the special `injectedData` front matter property.
-  For example, the return value from the `dataSelectors.watchOutForBees` is available with `import beeData from '@mapbox/batfish/data/watch-out-for-bees';`.
+  Values returned by `dataSelectors` can now be used by `import`ing modules from `@birkskyum/batfish/data/[data-selector-name]`, instead of using the special `injectedData` front matter property.
+  For example, the return value from the `dataSelectors.watchOutForBees` is available with `import beeData from '@birkskyum/batfish/data/watch-out-for-bees';`.
 
 ## 0.8.0
 
@@ -358,7 +358,7 @@
 
 ## 0.5.0
 
-- Changed `batfish/md` path, for Babel-compiled Markdown in JS pages, to `@mapbox/batfish/modules/md`.
+- Changed `batfish/md` path, for Babel-compiled Markdown in JS pages, to `@birkskyum/batfish/modules/md`.
 - Switched ES2015 module compilation from Webpack's system to Babel's ES2015 preset.
 - Use [worker-farm](https://github.com/rvagg/node-worker-farm) for inlining CSS in static HTML files.
 - Upgrade Webpack to v3.

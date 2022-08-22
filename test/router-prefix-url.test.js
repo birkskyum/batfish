@@ -1,10 +1,10 @@
 'use strict';
 
 // eslint-disable-next-line node/no-missing-require
-const prefixUrl = require('@mapbox/batfish/modules/prefix-url').prefixUrl;
+const prefixUrl = require('@birkskyum/batfish/modules/prefix-url').prefixUrl;
 
 jest.mock(
-  '@mapbox/batfish/modules/prefix-url',
+  '@birkskyum/batfish/modules/prefix-url',
   () => {
     const prefixUrl = jest.fn();
     prefixUrl._configure = jest.fn();
@@ -29,8 +29,8 @@ jest.mock(
   { virtual: true }
 );
 
-jest.mock('@mapbox/batfish/modules/route-to', () => {}, { virtual: true });
-jest.mock('@mapbox/batfish/modules/route-change-listeners', () => {}, {
+jest.mock('@birkskyum/batfish/modules/route-to', () => {}, { virtual: true });
+jest.mock('@birkskyum/batfish/modules/route-change-listeners', () => {}, {
   virtual: true
 });
 

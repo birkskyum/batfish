@@ -6,7 +6,7 @@ month: 05
 ---*/
 
 import React from 'react';
-import md from '@mapbox/batfish/modules/md';
+import md from '@birkskyum/batfish/modules/md';
 import HolidayWrapper from '../../components/holiday-wrapper';
 import HolidayImage from '../../components/holiday-image'; // eslint-disable-line no-unused-vars
 

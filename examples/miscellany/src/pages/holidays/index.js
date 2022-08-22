@@ -4,7 +4,7 @@ description: A collection of articles about holidays.
 ---*/
 
 import React from 'react';
-import holidaysData from '@mapbox/batfish/data/holidays-data';
+import holidaysData from '@birkskyum/batfish/data/holidays-data';
 import PageShell from '../../components/page-shell';
 
 export default class Holidays extends React.Component {

@@ -21,7 +21,7 @@ function routeToPrefixed(url        ) {
 
 // Used by the Router to provide the function that actually does the routing.
 // This slight awkwardness is just to enable the user to
-// `require('@mapbox/batfish/modules/route-to')`.
+// `require('@birkskyum/batfish/modules/route-to')`.
 routeTo._setRouteToHandler = (handler                  ) => {
   routeToHandler = handler;
   if (delayed) {

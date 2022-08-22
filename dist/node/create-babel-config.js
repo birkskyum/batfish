@@ -55,7 +55,7 @@ function createBabelConfig(
     [
       require.resolve('@mapbox/babel-plugin-transform-jsxtreme-markdown'),
       {
-        packageName: '@mapbox/batfish/modules/md',
+        packageName: '@birkskyum/batfish/modules/md',
         remarkPlugins: batfishConfig.jsxtremeMarkdownOptions.remarkPlugins,
         rehypePlugins: batfishConfig.jsxtremeMarkdownOptions.rehypePlugins
       }

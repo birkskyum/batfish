@@ -1,5 +1,5 @@
 {
-  "name": "@mapbox/batfish",
+  "name": "@birkskyum/batfish",
   "version": "2.3.2",
   "description": "The React-powered static-site generator you didn't know you wanted",
   "main": "dist/node/index.js",

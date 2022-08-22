@@ -4,7 +4,7 @@ description: A collection of stories by Stephen Crane.
 ---*/
 
 import React from 'react';
-import storiesData from '@mapbox/batfish/data/stories-data';
+import storiesData from '@birkskyum/batfish/data/stories-data';
 import PageShell from '../../components/page-shell';
 
 export default class Stories extends React.Component {

@@ -1,4 +1,4 @@
-# @mapbox/batfish/modules
+# @birkskyum/batfish/modules
 
 Batfish exposes a few public modules to hook into its routing system and other internals.
 
@@ -18,11 +18,11 @@ Batfish exposes a few public modules to hook into its routing system and other i
 
 ## route-to
 
-Import from `'@mapbox/batfish/modules/route-to'`.
+Import from `'@birkskyum/batfish/modules/route-to'`.
 
 ### route-to API
 
-The following functions are named exports of `'@mapbox/batfish/modules/route-to'`.
+The following functions are named exports of `'@birkskyum/batfish/modules/route-to'`.
 
 #### routeTo
 
@@ -43,7 +43,7 @@ Like `routeTo` but automatically prefixes client-side routes with your [`siteOri
 // Let's imagine:
 // - siteBasePath === '/about/jobs/'
 // - /about/jobs/writer/ is a page you made.
-import { routeTo, routeToPrefixed } from '@mapbox/batfish/modules/route-to';
+import { routeTo, routeToPrefixed } from '@birkskyum/batfish/modules/route-to';
 
 // Client-side routing is used.
 routeTo('/about/jobs/writer/');
@@ -59,11 +59,11 @@ routeTo('/somewhere/else');
 
 Use this module to prefix URLs on your site according to the [`siteBasePath`] and [`siteOrigin`] you specified in your configuration, ensuring that they point to the right place both during development and in production.
 
-Import from `'@mapbox/batfish/modules/prefix-url'`.
+Import from `'@birkskyum/batfish/modules/prefix-url'`.
 
 ### prefix-url API
 
-The following functions are named exports of `'@mapbox/batfish/modules/prefix-url'`.
+The following functions are named exports of `'@birkskyum/batfish/modules/prefix-url'`.
 
 #### prefixUrl
 
@@ -90,7 +90,7 @@ If `url` is already an absolute URL, it is returned unmodified.
 // Let's imagine:
 // - siteBasePath === '/about/jobs/'
 // - siteOrigin === 'https://mydomain.com'
-import { prefixUrl, prefixUrlAbsolute } from '@mapbox/batfish/modules/prefix-url';
+import { prefixUrl, prefixUrlAbsolute } from '@birkskyum/batfish/modules/prefix-url';
 
 // The function prefixes a URL with siteBasePath.
 prefixUrl('engineer') // -> '/about/jobs/engineer'
@@ -103,11 +103,11 @@ prefixUrlAbsolute('engineer') // -> 'https://mydomain.com/about/jobs/engineer'
 
 Batfish exposes a few functions that allow you to do things when client-side route changes occur.
 
-Import from `'@mapbox/batfish/modules/route-change-listeners'`.
+Import from `'@birkskyum/batfish/modules/route-change-listeners'`.
 
 ### route-change-listeners API
 
-The following functions are named exports of `@mapbox/batfish/modules/route-change-listeners`.
+The following functions are named exports of `@birkskyum/batfish/modules/route-change-listeners`.
 
 #### addRouteChangeStartListener
 
@@ -165,13 +165,13 @@ The parameters and return value are equivalent to those for [`removeRouteChangeS
 
 ## with-location
 
-Import from `'@mapbox/batfish/modules/with-location'`.
+Import from `'@birkskyum/batfish/modules/with-location'`.
 
 This module exports a higher-order component that you can use to inject an abbreviated [Location](https://developer.mozilla.org/en-US/docs/Web/API/Location) object into the props of your own component.
 
 ### with-location API
 
-The function functions are named exports from `'@mapbox/batfish/modules/with-location'`.
+The function functions are named exports from `'@birkskyum/batfish/modules/with-location'`.
 
 #### withLocation
 
@@ -193,7 +193,7 @@ The returned component exposes the original, wrapped component on the `WrappedCo
 ### with-location example
 
 ```js
-const withLocation = require('@mapbox/batfish/modules/with-location');
+const withLocation = require('@birkskyum/batfish/modules/with-location');
 
 class MyPage extends React.Component {
   render() {

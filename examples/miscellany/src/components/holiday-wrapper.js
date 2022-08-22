@@ -1,5 +1,5 @@
 import React from 'react';
-import holidaysData from '@mapbox/batfish/data/holidays-data';
+import holidaysData from '@birkskyum/batfish/data/holidays-data';
 import PageShell from './page-shell';
 import SidebarNavigation from './sidebar-navigation';
 

@@ -62,8 +62,8 @@ Object {
             "options": Object {
               "headings": true,
               "prependJs": Array [
-                "import { prefixUrl, prefixUrlAbsolute } from '@mapbox/batfish/modules/prefix-url';",
-                "import { routeTo, routeToPrefixed } from '@mapbox/batfish/modules/route-to';",
+                "import { prefixUrl, prefixUrlAbsolute } from '@birkskyum/batfish/modules/prefix-url';",
+                "import { routeTo, routeToPrefixed } from '@birkskyum/batfish/modules/route-to';",
               ],
             },
           },
@@ -117,7 +117,7 @@ Object {
   "plugins": Array [],
   "resolve": Object {
     "alias": Object {
-      "@mapbox/batfish/data": "<PROJECT_ROOT>/_batfish_tmp/data",
+      "@birkskyum/batfish/data": "<PROJECT_ROOT>/_batfish_tmp/data",
       "batfish-internal/application-wrapper": "<PROJECT_ROOT>/src/webpack/empty-application-wrapper.js",
       "batfish-internal/context": "fake/batfish-context.js",
     },
@@ -196,8 +196,8 @@ Object {
             "options": Object {
               "headings": true,
               "prependJs": Array [
-                "import { prefixUrl, prefixUrlAbsolute } from '@mapbox/batfish/modules/prefix-url';",
-                "import { routeTo, routeToPrefixed } from '@mapbox/batfish/modules/route-to';",
+                "import { prefixUrl, prefixUrlAbsolute } from '@birkskyum/batfish/modules/prefix-url';",
+                "import { routeTo, routeToPrefixed } from '@birkskyum/batfish/modules/route-to';",
               ],
             },
           },
@@ -252,7 +252,7 @@ Object {
   "plugins": Array [],
   "resolve": Object {
     "alias": Object {
-      "@mapbox/batfish/data": "<PROJECT_ROOT>/_batfish_tmp/data",
+      "@birkskyum/batfish/data": "<PROJECT_ROOT>/_batfish_tmp/data",
       "batfish-internal/application-wrapper": "<PROJECT_ROOT>/src/webpack/empty-application-wrapper.js",
       "batfish-internal/context": "fake/batfish-context.js",
     },
@@ -342,8 +342,8 @@ Object {
               "prependJs": Array [
                 "const add = (x, y) => x + y;",
                 "import egg from 'chicken';",
-                "import { prefixUrl, prefixUrlAbsolute } from '@mapbox/batfish/modules/prefix-url';",
-                "import { routeTo, routeToPrefixed } from '@mapbox/batfish/modules/route-to';",
+                "import { prefixUrl, prefixUrlAbsolute } from '@birkskyum/batfish/modules/prefix-url';",
+                "import { routeTo, routeToPrefixed } from '@birkskyum/batfish/modules/route-to';",
               ],
               "remarkPlugins": Array [
                 [Function],
@@ -409,7 +409,7 @@ Object {
   "plugins": Array [],
   "resolve": Object {
     "alias": Object {
-      "@mapbox/batfish/data": "<PROJECT_ROOT>/test/fake/temporary/directory/data",
+      "@birkskyum/batfish/data": "<PROJECT_ROOT>/test/fake/temporary/directory/data",
       "batfish-internal/application-wrapper": "<PROJECT_ROOT>/test/fixtures/empty-component.js",
       "batfish-internal/context": "fake/batfish-context.js",
     },

@@ -7,7 +7,7 @@ import { scrollToFragment } from './scroll-to-fragment';
 import {
   _invokeRouteChangeStartCallbacks,
   _invokeRouteChangeEndCallbacks
-} from '@mapbox/batfish/modules/route-change-listeners';
+} from '@birkskyum/batfish/modules/route-change-listeners';
 import { getCurrentLocation } from './get-current-location';
 import { getWindow } from './get-window';
 
