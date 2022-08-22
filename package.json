@@ -140,7 +140,7 @@
     "mkdirp": "^1.0.4",
     "nocache": "^2.1.0",
     "p-try": "^2.2.0",
-    "path-type": "^4.0.0",
+    "path-type": "^5.0.0",
     "pify": "^5.0.0",
     "postcss": "^7.0.31",
     "postcss-csso": "^4.0.0",
