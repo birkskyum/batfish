@@ -148,7 +148,7 @@ let config = {};
 if (configPath) {
   try {
     if (fs.existsSync(configPath)) {
-      const configModule = require(configPath);
+      const configModule = import(configPath);
       if (typeof configModule !== 'function') {
         logCliError(
           'Your configuration module must export a function that returns an object.'
