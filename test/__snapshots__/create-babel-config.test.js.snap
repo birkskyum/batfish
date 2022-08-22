@@ -73,7 +73,6 @@ Array [
 exports[`createBabelConfig with Batfish config that affects Babel 2`] = `
 Array [
   "./../node_modules/@babel/plugin-syntax-dynamic-import/lib/index.js",
-  "./../node_modules/@babel/plugin-syntax-import-assertions/lib/index.js",
   "./../node_modules/@babel/plugin-proposal-class-properties/lib/index.js",
   "./../node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
   Array [
@@ -132,7 +131,6 @@ Array [
 exports[`createBabelConfig with defaults 2`] = `
 Array [
   "./../node_modules/@babel/plugin-syntax-dynamic-import/lib/index.js",
-  "./../node_modules/@babel/plugin-syntax-import-assertions/lib/index.js",
   "./../node_modules/@babel/plugin-proposal-class-properties/lib/index.js",
   "./../node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
   Array [
