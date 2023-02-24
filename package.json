@@ -110,7 +110,7 @@
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.2.2",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27.12",
     "chalk": "^4.1.1",
     "chokidar": "^3.5.1",
     "concat-with-sourcemaps": "^1.1.0",
